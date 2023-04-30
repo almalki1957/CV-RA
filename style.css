@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(179, 176, 176);
+}
+
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    grid-gap: 1rem;
+}
+
+.left{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid #ccc; 
+    padding: 20px;
+}
+.left-image img{
+    width: 100%;
+
+}
+
+ul{
+    list-style: none;
+}
+.contact-info,.personal{
+    padding: 1rem;
+    line-height: 2;
+
+
+}
+
+.right{
+    background-color:  rgb(255, 255, 255);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid #ccc; 
+    padding: 20px;
+
+}
+.obj{
+ line-height: 2;
+ padding: 1rem;
+}
+
+.obj ul{
+    margin: 2rem 0;
+}
+
+.edu{
+  
+    line-height: 2;
+    padding: 1rem;
+
+}
+.education-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .education-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .education-date {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .education-institution {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .education-details {
+    flex: 1;
+  }
+  
+  .education-details li {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+
+  .project{
+    line-height: 2;
+  }
+  .project-section {
+    padding: 25px;
+  }
+  
+  .project-list {
+    list-style: none;
+    margin: 0;
+    padding: 2;
+  }
+  
+  .project-list li {
+    margin-bottom: 20px;
+  }
+  
+  .project-list li h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .project-list li p {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
